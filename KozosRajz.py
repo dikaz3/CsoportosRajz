@@ -1,3 +1,0 @@
-
-
-#Sanyi lámpa rész
