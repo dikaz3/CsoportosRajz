@@ -1,4 +1,5 @@
 import turtle
+turtle.speed(0)
 i=0
 turtle.bgcolor("lightblue")
 turtle.penup()
@@ -38,6 +39,12 @@ turtle.left(90)
 turtle.penup()
 turtle.forward(10)
 turtle.pendown()
+turtle.right(90)
+turtle.color("green")
+turtle.begin_fill()
+turtle.fillcolor("green")
+turtle.circle(25)
+turtle.end_fill()
 
 i += 1
 
