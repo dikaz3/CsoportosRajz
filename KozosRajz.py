@@ -32,8 +32,14 @@ turtle.forward(100)
 turtle.left(90)
 turtle.forward(200)
 turtle.left(90)
+turtle.end_fill()
+turtle.forward(50)
+turtle.left(90)
+turtle.penup()
+turtle.forward(10)
+turtle.pendown()
 
 i += 1
 
-turtle.end_fill()
+
 turtle.done()
