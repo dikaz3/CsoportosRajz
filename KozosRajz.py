@@ -1,0 +1,17 @@
+import turtle
+i=0
+turtle.bgcolor("lightblue")
+turtle.penup()
+turtle.goto(-0,-300)
+turtle.pendown()
+turtle.fillcolor("grey")
+turtle.begin_fill()
+turtle.forward(40)
+turtle.left(90)
+turtle.forward(300)
+turtle.left(90)
+turtle.forward(40)
+turtle.left(90)
+turtle.forward(300)
+turtle.end_fill()
+turtle.done()
