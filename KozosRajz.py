@@ -14,6 +14,26 @@ turtle.forward(40)
 turtle.left(90)
 turtle.forward(300)
 turtle.end_fill()
-turtle.done()
+turtle.left(180)
+turtle.forward(300)
+turtle.left(90)
+turtle.forward(30)
+turtle.right(180)
+
+
 turtle.fillcolor("black")
 turtle.begin_fill()
+
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(200)
+turtle.left(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.forward(200)
+turtle.left(90)
+
+i += 1
+
+turtle.end_fill()
+turtle.done()
